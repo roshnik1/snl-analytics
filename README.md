@@ -1,4 +1,4 @@
-# SNL Analytics: Cast, Skits, and Ratings Insights Dashboard
+# SNL Cast Tenure & Gender Dynamics: A Data-Driven Exploration of Longevity and Representation
 
 ## Overview
 
@@ -40,3 +40,6 @@ Through the analysis of Saturday Night Live (SNL) cast tenure data, several key 
 - There is a clear upward trend in gender diversity, with the cast becoming more balanced in recent seasons. This shift aligns with broader societal pushes for more representation and diversity in media.
 - However, there remains room for improvement, particularly in ensuring equal opportunities for long-term cast tenures across genders.
 <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/gender_ratio.png" alt="Dashboard" width="800" height="400"/>
+
+## Conclusion
+Overall, this analysis highlights the evolving nature of SNL’s cast in terms of tenure and gender representation. While certain long-tenured cast members have been pivotal to the show's success, the increasing representation of women in more recent decades suggests positive progress towards gender diversity. Further research could explore other factors like race, age, or background in shaping cast dynamics.
