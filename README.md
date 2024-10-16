@@ -53,7 +53,7 @@ Through the analysis of Saturday Night Live (SNL) cast tenure data, several key 
 - Overall, the data highlights a mix of veteran cast members dominating screen time, while newer cast members gained more visibility, signaling potential future shifts in the cast lineup.
   
   <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/season_46_summary.png" alt="Dashboard" width="650" height="400"/>
->**Note:** You can explore cast trends for other seasons by running the `season_summary.ipynb` file. Simply adjust the season variable to analyze different seasons and generate corresponding visualizations. The analysis seasons 44 and 45 is provided in the code for a reference.
+>**Note:** You can explore cast trends for other seasons by running the `season_summary.ipynb` file. Simply adjust the season variable to analyze different seasons and generate corresponding visualizations. The analysis for seasons 44 and 45 is provided in the code as a reference.
 
 ## Conclusion
 Overall, this analysis highlights the evolving nature of SNL’s cast in terms of tenure and gender representation. While certain long-tenured cast members have been pivotal to the show's success, the increasing representation of women in more recent decades suggests positive progress towards gender diversity. Further research could explore other factors like race, age, or background in shaping cast dynamics.
