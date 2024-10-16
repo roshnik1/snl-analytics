@@ -1,18 +1,45 @@
-# SNL Analytics: Cast, Skits, and Ratings Insights Dashboard
+# SNL Cast Tenure & Gender Dynamics: A Data-Driven Exploration of Longevity and Representation
 
 ## Overview
 
-The **SNL Analytics Dashboard** project comprehensively analyzes Saturday Night Live (SNL) by examining historical data on cast members, skits, and episode ratings. This interactive dashboard leverages Python for data extraction, cleaning, and advanced analysis, PostgreSQL for efficient data storage and querying, and Power BI for creating dynamic visualizations. The project aims to uncover trends in cast performance, evaluate the popularity of different skits, and forecast future episode ratings. The dashboard provides valuable insights into factors that drive show ratings and audience engagement by integrating data from various sources and applying predictive modeling techniques. It allows users to explore cast longevity, skit themes, and viewership patterns, offering a detailed look at what makes SNL a staple of American television.
+This project delves into the tenure of cast members on Saturday Night Live (SNL), with a special focus on analyzing cast dynamics over the years. The analysis includes examining cast tenure trends, identifying key patterns, and exploring how gender influences cast turnover and representation on the show. Using the Saturday Night Live dataset from Kaggle, alongside Python and Tableau, this project provides visualizations and insights into cast longevity and gender diversity throughout SNL's history. By understanding the tenure and gender breakdown of the cast, the project aims to highlight shifts in representation and how these trends may correlate with other factors, such as the show's popularity.
 
 ## Initial Questions
 
-- What are the trends in episode ratings over different seasons of SNL?  
-- How does the presence of specific cast members influence episode ratings?  
-- Which skit types or themes are most associated with higher viewership?  
-- How do different hosts affect the ratings of their respective episodes?  
-- Are there notable patterns or anomalies in ratings based on the time of year?  
-- What are the forecasted ratings for future episodes, and how do historical trends inform these predictions?
+- Which cast members have had the longest and shortest tenures on SNL?  
+- Are there any notable trends in cast turnover over time?  
+- How does a cast member's tenure influence the show's popularity or ratings?  
+- What are the gender dynamics of cast turnover across different decades?  
+- Have gender representation trends improved over time on the show?  
+- What patterns emerge when comparing tenure and gender by decade or SNL season?  
 
 ## Data
 
 All datasets used in this project were sourced from the SNL Dataset available on Kaggle. The raw data files were downloaded as CSVs and processed to remove any unnecessary formatting. These CSV files were then uploaded to GitHub for easy access and loading into the analysis environment. Upon loading, each dataset underwent a thorough cleaning process, including handling missing values and standardizing column names. Only relevant data points were retained for analysis to ensure clarity and focus on key insights.
+
+## Findings
+
+Through the analysis of Saturday Night Live (SNL) cast tenure data, several key insights were uncovered:
+
+### Longest and Shortest Tenures:
+- Kenan Thompson holds the record for the longest tenure in SNL history, spanning over 20 seasons, while many cast members, especially those from earlier seasons, had relatively short stints, often lasting only one season.  
+- The show has seen higher turnover in the early seasons, with cast members staying longer in recent decades.
+<img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/Cast%20Tenure%20Dashboard.png" alt="Dashboard" width="800" height="400"/>
+
+### Trends in Cast Turnover:
+- There are clear patterns of cast turnover that align with the start of new decades or when new producers, such as Lorne Michaels, took charge. Significant cast shake-ups often coincide with creative shifts on the show.  
+- Certain periods in SNL’s history, such as the mid-1990s and early 2000s, saw a more stable cast with fewer exits, likely contributing to the show's continuity and creative consistency during those eras.
+
+### Gender Representation Over Time:
+- Gender representation on SNL has shifted significantly over time. In the early years, the cast was predominantly male, with fewer female cast members staying for multiple seasons.  
+- However, starting in the 1990s and particularly in the 2000s, the gender gap began to close. Notable female cast members like Tina Fey, Amy Poehler, and Kate McKinnon have had long and impactful tenures, signaling an improvement in female representation on the show.  
+- Despite these improvements, the data reveals that male cast members, on average, still tend to have longer tenures compared to their female counterparts.
+<img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/gender_analytics.png" alt="Dashboard" width="800" height="400"/>  
+
+### Shifts in Gender Dynamics:
+- There is a clear upward trend in gender diversity, with the cast becoming more balanced in recent seasons. This shift aligns with broader societal pushes for more representation and diversity in media.
+- However, there remains room for improvement, particularly in ensuring equal opportunities for long-term cast tenures across genders.
+<img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/gender_ratio.png" alt="Dashboard" width="800" height="400"/>
+
+## Conclusion
+Overall, this analysis highlights the evolving nature of SNL’s cast in terms of tenure and gender representation. While certain long-tenured cast members have been pivotal to the show's success, the increasing representation of women in more recent decades suggests positive progress towards gender diversity. Further research could explore other factors like race, age, or background in shaping cast dynamics.
