@@ -24,17 +24,20 @@ Through the analysis of Saturday Night Live (SNL) cast tenure data, several key 
 ### Longest and Shortest Tenures:
 - Kenan Thompson holds the record for the longest tenure in SNL history, spanning over 20 seasons, while many cast members, especially those from earlier seasons, had relatively short stints, often lasting only one season.  
 - The show has seen higher turnover in the early seasons, with cast members staying longer in recent decades.
+  
   <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/Cast%20Tenure%20Dashboard.png" alt="Dashboard" width="900" height="400"/>
 
 ### Trends in Cast Turnover:
 - There are clear patterns of cast turnover that align with the start of new decades or when new producers, such as Lorne Michaels, took charge. Significant cast shake-ups often coincide with creative shifts on the show.  
 - Certain periods in SNL’s history, such as the mid-1990s and early 2000s, saw a more stable cast with fewer exits, likely contributing to the show's continuity and creative consistency during those eras.
+  
   <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/turnover_rate.png" alt="Dashboard" width="700" height="400"/>
 
 ### Gender Representation Over Time:
 - Gender representation on SNL has shifted significantly over time. In the early years, the cast was predominantly male, with fewer female cast members staying for multiple seasons.  
 - However, starting in the 1990s and particularly in the 2000s, the gender gap began to close. Notable female cast members like Tina Fey, Amy Poehler, and Kate McKinnon have had long and impactful tenures, signaling an improvement in female representation on the show.  
-- Despite these improvements, the data reveals that male cast members, on average, still tend to have longer tenures compared to their female counterparts.  
+- Despite these improvements, the data reveals that male cast members, on average, still tend to have longer tenures compared to their female counterparts.
+  
   <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/gender_analytics.png" alt="Dashboard" width="800" height="400"/>
 
 ### Shifts in Gender Dynamics:
@@ -47,7 +50,8 @@ Through the analysis of Saturday Night Live (SNL) cast tenure data, several key 
 - Kenan Thompson and Kate McKinnon also had strong showings, continuing their roles as long-standing cast members with significant appearances.  
 - Newer cast members like Bowen Yang and Chloe Fineman had a notable rise in screen time, reflecting their growing prominence on the show.  
 - Ego Nwodim also saw increased appearances, indicating a larger role compared to earlier seasons.
-- Overall, the data highlights a mix of veteran cast members dominating screen time, while newer cast members gained more visibility, signaling potential future shifts in the cast lineup.  
+- Overall, the data highlights a mix of veteran cast members dominating screen time, while newer cast members gained more visibility, signaling potential future shifts in the cast lineup.
+  
   <img src="https://github.com/roshnik1/SNL-Analytics/blob/main/images/season_46_summary.png" alt="Dashboard" width="650" height="400"/>
 >**Note:** You can explore cast trends for other seasons by running the `season_summary.ipynb` file. Simply adjust the season variable to analyze different seasons and generate corresponding visualizations. The analysis seasons 44 and 45 is provided in the code for a reference.
 
